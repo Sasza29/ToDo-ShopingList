@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista zadań</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <img class="img" src="kredki-1.png" alt="tło z długopisów">
+
+    <h1>Lista zadań i zakupów</h1>
+
+    <label><input type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()">Ciemny motyw</label>
+
+    <div class="container">
+        <!-- Zadania -->
+        <div class="list-section">
+            <h3>Zadania</h3>
+            <input class="input" type="text" id="taskInput" placeholder="Dodaj zadanie">
+            <button onclick="addTask()">Dodaj</button>
+            <ul id="taskList"></ul>
+        </div>
+        <!-- Zakupy -->
+        <div class="list-section">
+            <h3>Zakupy</h3>
+            <input class="input" type="text" id="shoppingInput" placeholder="Dodaj produkt">
+            <button onclick="addShoppingItem()">Dodaj</button>
+            <ul id="shoppingList"></ul>
+        </div>
+    </div>
+    <!-- Sekcja z gotowymi produktami -->
+    <div class="sections">
+        <section id="predefinedItems">
+            <button class="propos" onclick="addPredefinedItem('Chleb żytni')">Chleb żytni</button>
+            <button class="propos" onclick="addPredefinedItem('Mleko sojowe')">Mleko sojowe</button>
+            <button class="propos" onclick="addPredefinedItem('Jajka')">Jajka</button>
+            <button class="propos" onclick="addPredefinedItem('Masło')">Masło</button>
+            <button class="propos" onclick="addPredefinedItem('Spodnie')">Spodnie</button>
+            <button class="propos" onclick="addPredefinedItem('Mięso mielone')">Mięso mielone</button>
+            <button class="propos" onclick="addPredefinedItem('Słuchawki')">Słuchawki</button>
+            <button class="propos" onclick="addPredefinedItem('Leki')">Leki</button>
+            <button class="propos" onclick="addPredefinedItem('Kurtka na jesień')">Kurtka na jesień</button>
+            <button class="propos" onclick="addPredefinedItem('Strój kąpielowy')">Strój kąpielowy</button>
+            <button class="propos" onclick="addPredefinedItem('SPF 50')">SPF 50</button>
+            <button class="propos" onclick="addPredefinedItem('Ciasteczka')">Ciasteczka</button>
+        </section>
+        <section id="predefinedTask">
+            <button class="propos" onclick="addPredefinedTask('Zapisać się do lekarza')">Zapisać się do lekarza</button>
+            <button class="propos" onclick="addPredefinedTask('Zakupy sporzywcze')">Zakupy sporzywcze</button>
+            <button class="propos" onclick="addPredefinedTask('Uprawiać joge')">Uprawiać joge</button>
+            <button class="propos" onclick="addPredefinedTask('Ugotować obiad')">Ugotować obiad</button>
+            <button class="propos" onclick="addPredefinedTask('Zrobić jadłospis')">Zrobić jadłospis</button>
+            <button class="propos" onclick="addPredefinedTask('Upiec bułeczki')">Upiec bułeczki</button>
+            <button class="propos" onclick="addPredefinedTask('Generalne sprzątanie')">Generalne sprzątanie</button>
+            <button class="propos" onclick="addPredefinedTask('Zaplanować wakacje')">Zaplanować wakacje</button>
+            <button class="propos" onclick="addPredefinedTask('Skok ze spadochronem')">Skok ze spadochronem</button>
+            <button class="propos" onclick="addPredefinedTask('Zarezerwować nocleg')">Zarezerwować nocleg</button>
+            <button class="propos" onclick="addPredefinedTask('Odebrać paczke')">Odebrać paczke</button>
+            <button class="propos" onclick="addPredefinedTask('Uśmiechnąć się')">Uśmiechnąć się</button>
+        </section>
+    </div>    
+    <footer>
+        <p>@ 2025 Oleksndra Alieksieieva</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
