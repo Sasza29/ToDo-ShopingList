@@ -1,4 +1,4 @@
-# Todos-ShapList - Aplikacja do zarządzania zadaniami i zakupami
+# Todos-ShoppList - Aplikacja do zarządzania zadaniami i zakupami
 
 To jest aplikacja "ToDos and Shopping List" napisana w HTML, CSS i JavaScript. Umożliwia użytkownikom dodawanie, usuwanie i zaznaczanie elementów listy.
 
