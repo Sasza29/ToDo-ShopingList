@@ -14,7 +14,7 @@ To jest aplikacja "ToDos and Shopping List" napisana w HTML, CSS i JavaScript. U
 
 Możesz zobaczyć aplikację w działaniu na GitHub Pages klikając poniższy link:
 
-[Link do aplikacji](https://github.com/Sasza29/ToDo-ShopingList)
+[Link do aplikacji]( https://sasza29.github.io/ToDo-ShopingList/)
 
 ## Instalacja
 
